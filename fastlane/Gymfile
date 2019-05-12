@@ -1,0 +1,5 @@
+scheme("fastlane-docker-test")
+
+sdk("iphoneos12.1")
+
+output_directory("./")

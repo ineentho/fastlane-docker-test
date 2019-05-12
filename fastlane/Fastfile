@@ -1,0 +1,10 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Build ipa"
+  lane :build do
+    get_certificates
+    get_provisioning_profile
+    gym
+  end
+end
